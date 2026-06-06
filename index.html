@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Santia's Artist Links</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box;}
+body{
+    font-family:'Montserrat',sans-serif;
+    background:#000;color:#fff;min-height:100vh;
+    display:flex;justify-content:center;align-items:center;padding:30px;
+}
+.container{width:100%;max-width:520px;text-align:center;}
+.profile-img{
+    width:240px;height:240px;object-fit:cover;border-radius:24px;
+    margin-bottom:25px;filter:grayscale(100%);
+    border:1px solid rgba(255,255,255,.1);
+    box-shadow:0 0 40px rgba(255,255,255,.08);
+}
+h1{font-size:3rem;letter-spacing:8px;font-weight:700;margin-bottom:10px;}
+.bio{color:#bdbdbd;margin-bottom:35px;font-size:.95rem;letter-spacing:2px;text-transform:uppercase;}
+.links{display:flex;flex-direction:column;gap:15px;}
+.link{
+    display:block;background:#fff;color:#000;text-decoration:none;
+    padding:18px;border-radius:14px;font-weight:600;
+    letter-spacing:1px;transition:all .25s ease;
+}
+.link:hover{transform:translateY(-4px);background:#dcdcdc;}
+.footer{margin-top:30px;color:#666;font-size:.8rem;letter-spacing:2px;}
+</style>
+</head>
+<body>
+<div class="container">
+<img src="profile.jpg" alt="Santia" class="profile-img">
+<h1>SANTIA</h1>
+<p class="bio">Artist • Producer • Creator</p>
+<div class="links">
+<a class="link" href="https://www.youtube.com/@Santia_PR" target="_blank">YOUTUBE</a>
+<a class="link" href="https://soundcloud.com/santiasantia" target="_blank">SOUNDCLOUD</a>
+<a class="link" href="https://open.spotify.com/artist/02PJw56ScaYyd2Ne0UaJZA?si=k-nT2b64T5uxsEBkdFh93g" target="_blank">SPOTIFY</a>
+<a class="link" href="https://music.apple.com/us/artist/santia/1598171568" target="_blank">APPLE MUSIC</a>
+</div>
+<div class="footer">© SANTIA</div>
+</div>
+</body>
+</html>
