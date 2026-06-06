@@ -3,36 +3,22 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 <title>Santia's Artist Links</title>
-
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
-
 <style>
 *{margin:0;padding:0;box-sizing:border-box;}
-body{
-    font-family:'Montserrat',sans-serif;
-    background:#000;color:#fff;min-height:100vh;
-    display:flex;justify-content:center;align-items:center;padding:30px;
-}
+body{font-family:'Montserrat',sans-serif;background:#000;color:#fff;min-height:100vh;display:flex;justify-content:center;align-items:center;padding:30px;}
 .container{width:100%;max-width:520px;text-align:center;}
-.profile-img{
-    width:240px;height:240px;object-fit:cover;border-radius:24px;
-    margin-bottom:25px;filter:grayscale(100%);
-    border:1px solid rgba(255,255,255,.1);
-    box-shadow:0 0 40px rgba(255,255,255,.08);
-}
+.profile-img{width:240px;height:240px;object-fit:cover;border-radius:24px;margin-bottom:25px;filter:grayscale(100%);border:1px solid rgba(255,255,255,.1);box-shadow:0 0 40px rgba(255,255,255,.08);}
 h1{font-size:3rem;letter-spacing:8px;font-weight:700;margin-bottom:10px;}
-.bio{color:#bdbdbd;margin-bottom:35px;font-size:.95rem;letter-spacing:2px;text-transform:uppercase;}
+.bio{color:#bdbdbd;margin-bottom:35px;font-size:.95rem;letter-spacing:3px;text-transform:uppercase;}
 .links{display:flex;flex-direction:column;gap:15px;}
-.link{
-    display:block;background:#fff;color:#000;text-decoration:none;
-    padding:18px;border-radius:14px;font-weight:600;
-    letter-spacing:1px;transition:all .25s ease;
-}
+.link{display:block;background:#fff;color:#000;text-decoration:none;padding:18px;border-radius:14px;font-weight:600;letter-spacing:1px;transition:all .25s ease;}
 .link:hover{transform:translateY(-4px);background:#dcdcdc;}
+.instagram-link{display:flex;justify-content:center;align-items:center;width:60px;height:60px;margin:25px auto 0;background:transparent;color:#fff;text-decoration:none;border:1px solid rgba(255,255,255,.3);border-radius:50%;transition:all .25s ease;}
+.instagram-link:hover{background:#fff;color:#000;transform:translateY(-3px);}
 .footer{margin-top:30px;color:#666;font-size:.8rem;letter-spacing:2px;}
 </style>
 </head>
@@ -40,14 +26,19 @@ h1{font-size:3rem;letter-spacing:8px;font-weight:700;margin-bottom:10px;}
 <div class="container">
 <img src="profile.jpg" alt="Santia" class="profile-img">
 <h1>SANTIA</h1>
-<p class="bio">Artist • Producer • Creator</p>
+<p class="bio">ARTIST</p>
 <div class="links">
 <a class="link" href="https://www.youtube.com/@Santia_PR" target="_blank">YOUTUBE</a>
 <a class="link" href="https://soundcloud.com/santiasantia" target="_blank">SOUNDCLOUD</a>
 <a class="link" href="https://open.spotify.com/artist/02PJw56ScaYyd2Ne0UaJZA?si=k-nT2b64T5uxsEBkdFh93g" target="_blank">SPOTIFY</a>
 <a class="link" href="https://music.apple.com/us/artist/santia/1598171568" target="_blank">APPLE MUSIC</a>
 </div>
-<div class="footer">© SANTIA</div>
+<a class="instagram-link" href="https://www.instagram.com/santia.pr/" target="_blank" aria-label="Instagram">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 16 16">
+<path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.087 3.269.222 2.76.42a3.89 3.89 0 0 0-1.417.923A3.89 3.89 0 0 0 .42 2.76c-.198.509-.333 1.09-.372 1.943C.01 5.556 0 5.829 0 8s.01 2.444.048 3.297c.039.853.174 1.434.372 1.943.205.527.478.974.923 1.417.443.445.89.718 1.417.923.509.198 1.09.333 1.943.372C5.556 15.99 5.829 16 8 16s2.444-.01 3.297-.048c.853-.039 1.434-.174 1.943-.372a3.916 3.916 0 0 0 2.34-2.34c.198-.509.333-1.09.372-1.943C15.99 10.444 16 10.171 16 8s-.01-2.444-.048-3.297c-.039-.853-.174-1.434-.372-1.943a3.916 3.916 0 0 0-2.34-2.34c-.509-.198-1.09-.333-1.943-.372C10.444.01 10.171 0 8 0z"/>
+</svg>
+</a>
+<div class="footer">© SOUL CHECK RECORDS</div>
 </div>
 </body>
 </html>
