@@ -26,38 +26,61 @@ margin-bottom:25px;filter:grayscale(100%);
 border:1px solid rgba(255,255,255,.1);
 box-shadow:0 0 40px rgba(255,255,255,.08);
 }
-h1{font-size:3rem;letter-spacing:8px;font-weight:700;margin-bottom:10px;}
-.bio{
-color:#bdbdbd;margin-bottom:35px;font-size:.95rem;
-letter-spacing:3px;text-transform:uppercase;
+h1{
+font-size:3rem;
+letter-spacing:8px;
+font-weight:700;
+margin-bottom:10px;
 }
-.links{display:flex;flex-direction:column;gap:15px;}
+.bio{
+color:#bdbdbd;
+margin-bottom:35px;
+font-size:.95rem;
+letter-spacing:3px;
+text-transform:uppercase;
+}
+.links{
+display:flex;
+flex-direction:column;
+gap:15px;
+}
 .link{
-display:block;background:#fff;color:#000;text-decoration:none;
-padding:18px;border-radius:14px;font-weight:600;
-letter-spacing:1px;transition:all .25s ease;
+display:block;
+background:#fff;
+color:#000;
+text-decoration:none;
+padding:18px;
+border-radius:14px;
+font-weight:600;
+letter-spacing:1px;
+transition:all .25s ease;
 }
 .link:hover{
 transform:translateY(-4px);
 background:#dcdcdc;
 }
 .instagram-link{
-display:inline-flex;
+display:flex;
 justify-content:center;
 align-items:center;
-margin-top:25px;
-transition:all .3s ease;
-}
-.instagram-link img{
-width:80px;
-height:80px;
-border-radius:50%;
+width:140px;
+height:55px;
+margin:25px auto 0;
+background:#fff;
+color:#000;
+text-decoration:none;
+font-weight:700;
+font-size:.8rem;
+letter-spacing:2px;
+border-radius:999px;
+transition:all .25s ease;
 }
 .instagram-link:hover{
-transform:translateY(-4px) scale(1.08);
-filter:drop-shadow(0 0 10px rgba(255,120,180,.8))
-       drop-shadow(0 0 25px rgba(255,120,180,.6))
-       drop-shadow(0 0 40px rgba(255,120,180,.4));
+transform:translateY(-4px) scale(1.05);
+box-shadow:
+0 0 10px rgba(255,255,255,.5),
+0 0 20px rgba(255,255,255,.35),
+0 0 35px rgba(255,255,255,.2);
 }
 .footer{
 margin-top:30px;
@@ -80,11 +103,14 @@ letter-spacing:2px;
 <a class="link" href="https://music.apple.com/us/artist/santia/1598171568" target="_blank">APPLE MUSIC</a>
 </div>
 
-<a class="instagram-link" href="https://www.instagram.com/santia.pr/" target="_blank">
-<img src="instagram.png" alt="Instagram">
+<a class="instagram-link"
+href="https://www.instagram.com/santia.pr/"
+target="_blank">
+INSTAGRAM
 </a>
 
 <div class="footer">© SOUL CHECK RECORDS</div>
+
 </div>
 </body>
 </html>
